@@ -1,0 +1,86 @@
+---
+# This is a properly formatted git_repos file that can be used with the pymgit project.
+# https://github.com/watsonb/pymgit
+
+######################################
+#
+# Dinohead
+#
+######################################
+
+  - src: https://github.com/dinohead/ap_workspace_setup.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_azure_instance.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_linux_ansible_venv.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_linux_chrome.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_linux_customize_gnome.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_linux_intellij.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_linux_vim.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+  - src: https://github.com/dinohead/ar_vmware_instance.git
+    version: master
+    dest: /home/jon.snow/workspace/dinohead/
+    tags: [ dinohead ]
+
+######################################
+#
+# Dinosaurhead
+#
+######################################
+
+  - src: git@github.com:dinosaurhead/cifar10.git
+    version: master
+    dest: /home/jon.snow/workspace/dinosaurhead/
+    tags: [ dinosaurhead ]
+
+  - src: git@github.com:dinosaurhead/ansible_role_nginx_install.git
+    version: master
+    dest: /home/jon.snow/workspace/dinosaurhead/
+    tags: [ other ]
+
+######################################
+#
+# Other Projects
+#
+######################################
+
+  - src: git@github.com:ansible/awx.git
+    version: devel
+    dest: /home/jon.snow/workspace/other/
+    tags: [ other ]
+
+  - src: git@github.com:Azure/azure_preview_modules.git
+    version: master
+    dest: /home/jon.snow/workspace/other/
+    tags: [ other ]
+
+  - src: git@github.com:watsonb/pymgit.git
+    version: master
+    dest: /home/jon.snow/workspace/other/
+    tags: [ other ]
